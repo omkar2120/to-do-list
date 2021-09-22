@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap');
+
+
+body{
+   
+}
+.container{
+    position: relative;
+    background-color: #fafafa;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+h1{
+    padding: 20px;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+input {
+    width: 50%;
+    height: 35px;
+    border-radius: 20px;
+    border: solid 2px rgba(0, 30, 255, 0.933);
+    font-size: 15px;
+    font-family: 'Encode Sans SC', sans-serif;
+    color: #000000;
+    
+
+}
+placeholder{
+    font-size: large;
+}
+
+.add-element{
+    margin: 12px 0px;
+}
+
+.element-list{
+    height: 550px;
+    overflow-y: auto;
+}
+ul{
+    padding: 15px;
+}
+li{
+    list-style: none;
+    padding: 15px 10px;
+    background-color: #fafafa;
+    margin: 12px 0px;
+    box-shadow: 0 2px 8px rgba(0,0,0, 0.1);
+    border-radius: 2px;
+    transition: 4s;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    
+}
+button{
+    margin:0px;
+    background-color: blue;
+    border: none;
+    color: wheat;
+    width: 115px;
+    height:40px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgba(0, 30, 255, 0.726);
+}
+li:hover{
+    background-color: silver;
+}
+
+.image{
+    display: none;
+}
+
+
